@@ -1,5 +1,8 @@
 # Markdown
+
 Markdownについての技法の自分用のメモ
+
+参考ページ：https://help.github.com/en/categories/writing-on-github
 
 -  見出し
 
@@ -140,7 +143,11 @@ Markdownについての技法の自分用のメモ
 - エスケープ
 
     エスケープが必要なときは ` \(バックスラッシュ)` でエスケープ！
-
+    
+    Markdownの技法も無視出来るみたい
+    
+    （例）\*Markdown\* フォーマット無視出来てる
+ 
 - 個人もしくはチームにメンション
 
     ```
@@ -151,7 +158,11 @@ Markdownについての技法の自分用のメモ
 - 絵文字
 
     `:emojicode:` を追記したら絵文字が入る
-    
     使える絵文字の一覧はこのリンクから→[https://www.webfx.com/tools/emoji-cheat-sheet/](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
     （例）:+1: OK！ octocat！ :octocat:
+
+- 段落と改行
+
+    行間の間に空白行を入れると新しい段落にできるよ
+
