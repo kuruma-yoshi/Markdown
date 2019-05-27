@@ -18,6 +18,7 @@ Markdownについての技法の自分用のメモ
 - [個人もしくはチームにメンション](#個人もしくはチームにメンション)
 - [絵文字](#絵文字)
 - [段落と改行](#段落と改行)
+- [テーブル](#テーブル)
 
 ## 見出し
 
@@ -180,4 +181,44 @@ Markdownの技法も無視出来るみたい
 ## 段落と改行
 
 行間の間に空白行を入れると新しい段落にできるよ
+
+## テーブル
+
+`|(パイプ)` をテーブル内に入れるときはエスケープすれば入れれる。
+
+```
+シンプルなテーブル
+| First Header | Second Header | : ヘッダー行
+| --- | --- |                    : セルの設定
+| Content Call | Content Call |  : データ行
+| Content Call | Content Call |  : データ行
+```
+| First Header | Second Header |
+| --- | --- |
+| Content Call | Content Call |
+| Content Call | Content Call |
+
+```
+コンテンツのフォーマットは変更出来る
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+```
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
+```
+文字の左・中央・右に揃えることが出来る
+| Left-aligned | Center-aligned | Right-aligned |
+| :--- | :---: | ---: |
+| git status | git status | git status |
+| git diff | git diff | git diff |
+```
+| Left-aligned | Center-aligned | Right-aligned |
+| :-- | :--: | --: |
+| git status | git status | git status |
+| git diff | git diff | git diff |
 
