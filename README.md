@@ -147,3 +147,10 @@ Markdownについての技法の自分用のメモ
     @hoge_user              : ユーザーにメンション
     @organization/team-name : チームメンバー全員にメンション
     ```
+
+- 絵文字
+
+    `:emojicode:` を追記したら絵文字が入る
+    使える絵文字の一覧はこのリンクから→[https://www.webfx.com/tools/emoji-cheat-sheet/](https://www.webfx.com/tools/emoji-cheat-sheet/)
+
+    （例）:+1: OK！ octocat！ :octocat:
