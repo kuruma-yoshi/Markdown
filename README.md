@@ -82,8 +82,61 @@ Markdownについての技法の自分用のメモ
 - 相対リンク
 
     絶対パスで書くと後々面倒なのはお約束（全部書き直さないといけなくなるのでそういう手間をなくす）
+
+    ```
+    [相対リンク](/README.md)
+    ```
+    [相対リンク](/README.md)
+
+- リスト
+
+    ```
+    順不同リスト
+    - 1
+    - 2
+    - 3
+
+    もしくは
+
+    * 1
+    * 2
+    * 3
+    ```
+    - 1
+    - 2
+    - 3
+
+    ```
+    番号付リスト
+    1. First
+    2. Second
+    3. Thaad
+    ```
+    1. First
+    2. Second
+    3. Thaad
+
+    ```
+    ネストリスト
+    1. First
+        - Second
+            - Thaad 
+    ```
+    1. First
+        - Second
+            - Thaad
     
+- タスクリスト
+
     ```
-    [相対リンク](/README.md)
+    - [x] First Task
+    - [ ] Second Task
+    - [ ] Thaad Task
     ```
-    [相対リンク](/README.md)
+    - [x] First Task
+    - [ ] Second Task
+    - [ ] Thaad Task
+
+- エスケープ
+
+    エスケープが必要なときは ` \(バックスラッシュ)` でエスケープ！
