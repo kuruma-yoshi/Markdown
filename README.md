@@ -19,6 +19,7 @@ Markdownについての技法の自分用のメモ
 - [絵文字](#絵文字)
 - [段落と改行](#段落と改行)
 - [テーブル](#テーブル)
+- [コードブロック](#コードブロック)
 
 ## 見出し
 
@@ -90,6 +91,8 @@ _イタリック体_
 このリンク先は[Google](https://www.google.com/)
 
 ## セクションリンク
+
+ヘッダーが日本語でも行ける
 
 ```
 [セクションリンク](#section1)
@@ -221,4 +224,34 @@ Markdownの技法も無視出来るみたい
 | :-- | :--: | --: |
 | git status | git status | git status |
 | git diff | git diff | git diff |
+
+## コードブロック
+
+トリプルバッククォートで囲う
+
+```
+基本のブロック
+function test(){
+    console.log('test');
+}
+```
+
+### 構文の強調表示
+
+```php
+class Hoge(){
+    function hoge(hoge){
+        echo hoge;
+    }
+}
+```
+
+```python
+class Hoge:
+    def __init__(self, hoge):
+        self.hoge = hoge
+
+    def print_hoge(self):
+        print(self.hoge)
+```
 
