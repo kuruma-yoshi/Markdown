@@ -239,6 +239,7 @@ function test(){
 ### 構文の強調表示
 
 ```php
+// PHPシンタックス
 class Hoge(){
     function hoge(hoge){
         echo hoge;
@@ -247,6 +248,7 @@ class Hoge(){
 ```
 
 ```python
+# Pythonシンタックス
 class Hoge:
     def __init__(self, hoge):
         self.hoge = hoge
