@@ -1,2 +1,2 @@
 # Markdown
-Markdownについての技法のメモ
+Markdownについての技法の自分用のメモ
